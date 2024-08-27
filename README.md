@@ -1,0 +1,1 @@
+This project contains a mini project on zedboard with the OLED display on,pre-defined text was loaded onto the display by pressing the up D-Pad button (BTNU). Pressing the down D-Pad button (BTND) clears the display.
