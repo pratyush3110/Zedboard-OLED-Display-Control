@@ -1,0 +1,461 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Jul 21 05:05:47 2023
+# Process ID: 15776
+# Current directory: C:/Users/Mihai/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6468
+# Log file: C:/Users/Mihai/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Mihai/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: DESKTOP-UT90URG, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 34029 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project D:/Work/Zedboard/hw/proj/hw.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Work/Zedboard/hw/proj/hw.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Work/Zedboard/hw/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'init_sequence_rom' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'init_sequence_rom' (customized with software release 2022.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'pixel_buffer' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'pixel_buffer' (customized with software release 2022.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'charLib' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'charLib' (customized with software release 2022.1) has a different revision in the IP Catalog.
+INFO: [Project 1-230] Project 'hw.xpr' upgraded for this version of Vivado.
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+upgrade_ip [get_ips  {charLib init_sequence_rom pixel_buffer}] -log ip_upgrade.log
+Upgrading 'charLib'
+INFO: [IP_Flow 19-3422] Upgraded charLib (Block Memory Generator 8.4) from revision 5 to revision 6
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'charLib'...
+Upgrading 'init_sequence_rom'
+INFO: [IP_Flow 19-3422] Upgraded init_sequence_rom (Block Memory Generator 8.4) from revision 5 to revision 6
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'init_sequence_rom'...
+Upgrading 'pixel_buffer'
+INFO: [IP_Flow 19-3422] Upgraded pixel_buffer (Block Memory Generator 8.4) from revision 5 to revision 6
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'pixel_buffer'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/Work/Zedboard/hw/proj/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {charLib init_sequence_rom pixel_buffer}] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+set_property flow {Vivado Synthesis 2023} [get_runs synth_1]
+set_property flow {Vivado Implementation 2023} [get_runs impl_1]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Work/Zedboard/hw/proj/hw.srcs/utils_1/imports/synth_1/top.dcp with file D:/Work/Zedboard/hw/proj/hw.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'init_sequence_rom'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pixel_buffer'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'charLib'...
+[Fri Jul 21 05:07:08 2023] Launched synth_1...
+Run output will be captured here: D:/Work/Zedboard/hw/proj/hw.runs/synth_1/runme.log
+[Fri Jul 21 05:07:08 2023] Launched impl_1...
+Run output will be captured here: D:/Work/Zedboard/hw/proj/hw.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO is off.
+ECHO is off.
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-08:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248AE4058
+set_property PROGRAM.FILE {D:/Work/Zedboard/hw/proj/hw.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/Work/Zedboard/hw/proj/hw.runs/impl_1/top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248AE4058
+archive_project D:/Work/Zedboard/hw/hw.xpr.zip -temp_dir C:/Users/Mihai/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15776-DESKTOP-UT90URG -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Mihai/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15776-DESKTOP-UT90URG' for archiving project
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Work/Zedboard/hw/proj/hw.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Work/Zedboard/hw/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/Mihai/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15776-DESKTOP-UT90URG/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/Mihai/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15776-DESKTOP-UT90URG/PrjAr/_X_/hw.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [IP_Flow 19-7005] Skipping external file d:/Work/Zedboard/hw/src/other/init_sequence.coe
+INFO: [IP_Flow 19-7005] Skipping external file d:/Work/Zedboard/hw/src/other/characterLib.coe
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO is off.
+ECHO is off.
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:26:57
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO is off.
+ECHO is off.
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-08:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210276689348B
+set_property PROGRAM.FILE {D:/Work/Nexys-Video/hw/proj/hw.runs/impl_1/top.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {D:/Work/Nexys-Video/hw/proj/hw.runs/impl_1/top.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1711.273 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210276689348B
+source D:/Work/Nexys-Video/hw/scripts/checkin.tcl
+# set script_dir [file normalize [file dirname [info script]]]
+# foreach arg $argv {
+#     puts $arg
+# }
+# set idx [lsearch ${argv} "-r"]
+# if {${idx} != -1} {
+#     set repo_path [glob -nocomplain [file normalize [lindex ${argv} [expr {${idx}+1}]]]]
+# } else {
+#     # Default
+#     set repo_path [file normalize [file join [file dirname [info script]] ..]]
+# }
+# set idx [lsearch ${argv} "-x"]
+# if {${idx} != -1} {
+#     set xpr_path [glob -nocomplain [file normalize [lindex ${argv} [expr {${idx}+1}]]]]
+# } else {
+#     # Default
+#     set xpr_path [glob -nocomplain "${repo_path}/proj/*.xpr"]
+# }
+# if {[llength ${xpr_path}] != 1} {
+#     puts "ERROR: XPR not found"
+# } else {
+#     set xpr_path [lindex ${xpr_path} 0]
+# }
+# set idx [lsearch ${argv} "-v"]
+# if {${idx} != -1} {
+#     set vivado_version [lindex ${argv}]
+# } else {
+#     set vivado_version [version -short]
+# }
+# set vivado_version [lindex $argv 2];
+# set force_overwrite_info_script 0;
+# set proj_file [file tail $xpr_path]
+# set proj_dir [file dirname $xpr_path]
+# set proj_name [file rootname [file tail $proj_file]]
+# puts "INFO: Checking project \"$proj_file\" into version control."
+INFO: Checking project "hw.xpr" into version control.
+# set already_opened [get_projects -filter "DIRECTORY==$proj_dir && NAME==$proj_name"]
+# if {[llength $already_opened] == 0} {
+#     open_project $xpr_path
+# } else {
+#     current_project [lindex $already_opened 0]
+# }
+# set required_dirs [list                 \
+#     $repo_path/proj                     \
+#     $repo_path/hw_handoff               \
+#     $repo_path/src                      \
+#     $repo_path/src/bd                   \
+#     $repo_path/src/constraints          \
+#     $repo_path/src/ip                   \
+#     $repo_path/src/hdl                  \
+#     $repo_path/src/other                \
+#     $repo_path/repo                     \
+#     $repo_path/repo/local               \
+# ]
+# set required_files [list                \
+#     $repo_path/proj/.keep               \
+#     $repo_path/hw_handoff/.keep         \
+#     $repo_path/src/bd/.keep             \
+#     $repo_path/src/constraints/.keep    \
+#     $repo_path/src/ip/.keep             \
+#     $repo_path/src/hdl/.keep            \
+#     $repo_path/src/other/.keep          \
+#     $repo_path/repo/local/.keep         \
+# ]
+# set files [list]
+# foreach d $required_dirs {
+#     if {[file exists $d] == 0} {
+#         file mkdir $d
+#     }
+# }
+# foreach f $required_files {
+#     if {[file exists $f] == 0} {
+#         close [open $f "w"]
+#     }
+# }
+WARNING: [Vivado 12-818] No files matched '*'
+# set bd_files [get_files -filter "NAME=~*.bd && NAME!~*/bd/*/ip/*"]
+# if {[llength $bd_files] > 1} {
+#     puts "ERROR: This script cannot handle projects containing more than one block design!"
+# } elseif {[llength $bd_files] == 1} {
+#     set bd_file [lindex $bd_files 0]
+#     open_bd_design $bd_file
+#     set bd_name [file tail [file rootname [get_property NAME $bd_file]]]
+#     set script_name "$repo_path/src/bd/${bd_name}.tcl"
+#     puts "INFO: Checking in ${script_name} to version control."
+#     write_bd_tcl -force -no_ip_version -make_local $script_name
+#     # TODO: Add support for "Add Module" IPI features (check in hdl files included in sources_1, but not any ip fileset)
+# } else {
+#     foreach source_file [get_files -of_objects [get_filesets sources_1]] {
+#         set origin [get_property name $source_file]
+#         set skip 0
+#         if {[file extension $origin] == ".vhd"} {
+#             set subdir hdl
+#         } elseif {[file extension $origin] == ".v"} {
+#             set subdir hdl
+#         } elseif {[file extension $origin] == ".sv"} {
+#             set subdir hdl
+#         } elseif {[file extension $origin] != ".bd" && [file extension $origin] != ".xci"} {
+#             set subdir other
+#         } else {
+#             set skip 1
+#         }
+#         
+#         foreach ip [get_ips] {
+#             set ip_dir [get_property IP_DIR $ip]
+#             set source_length [string length $source_file]
+#             set dir_length [string length $ip_dir]
+#             if {$source_length >= $dir_length && [string range $source_file 0 $dir_length-1] == $ip_dir} {
+#                 set skip 1
+#             }
+#         }
+#         
+#         if {$skip == 0} {
+#             puts "INFO: Checking in [file tail $origin] to version control."
+#             set target $repo_path/src/$subdir/[file tail $origin]
+#             if {[file exists $target] == 0} { # TODO: this may not be safe; remind users to make sure to delete any unused files from version control
+#                 file copy -force $origin $target
+#             }
+#         }
+#     }
+# 	
+# #Convert each core container back to its original format
+# 	foreach ip [get_ips] { 
+# 	set ip_core_cont [get_property IP_CORE_CONTAINER $ip]
+# 	if {[llength ${ip_core_cont}] != 0} {
+# 		puts "INFO: Found $ip_core_cont for $ip"
+# 		puts "Convert $ip currently in the core container format into the expanded form of the non-core container format"
+# 		convert_ips -force -from_core_container [get_files  [get_property ip_file $ip]]
+# 	}
+# }
+#     foreach ip [get_ips] {
+#         set origin [get_property ip_file $ip]
+#         set ipname [get_property name $ip]
+#         set dir "$repo_path/src/ip/$ipname"
+#         if {[file exists $dir] == 0} {
+#             file mkdir $dir
+#         }
+#         set target $dir/[file tail $origin]
+#         puts "INFO: Checking in [file tail $origin] to version control."
+#         if {[file exists $target] == 0} {
+#             # TODO: this may not be safe; remind users to make sure to delete any unused files from version control
+#             file copy -force $origin $target
+#         }
+#     }
+#     # TODO: foreach file in /src/ip, if it wasn't just checked in, delete it
+# }
+INFO: Checking in init_sequence_rom.vho to version control.
+INFO: Checking in init_sequence_rom.veo to version control.
+INFO: Checking in init_sequence_rom_ooc.xdc to version control.
+INFO: Checking in init_sequence_rom.mif to version control.
+INFO: Checking in init_sequence_rom.vhd to version control.
+INFO: Checking in pixel_buffer.vho to version control.
+INFO: Checking in pixel_buffer.veo to version control.
+INFO: Checking in pixel_buffer_ooc.xdc to version control.
+INFO: Checking in pixel_buffer.vhd to version control.
+INFO: Checking in charLib.vho to version control.
+INFO: Checking in charLib.veo to version control.
+INFO: Checking in charLib_ooc.xdc to version control.
+INFO: Checking in charLib.mif to version control.
+INFO: Checking in charLib.vhd to version control.
+INFO: Checking in OLEDCtrl.v to version control.
+INFO: Checking in SpiCtrl.v to version control.
+INFO: Checking in debouncer.v to version control.
+INFO: Checking in delay_ms.v to version control.
+INFO: Checking in top.v to version control.
+INFO: Checking in characterLib.coe to version control.
+INFO: Checking in init_sequence.coe to version control.
+INFO: Checking in charLib.xci to version control.
+INFO: Checking in init_sequence_rom.xci to version control.
+INFO: Checking in pixel_buffer.xci to version control.
+# foreach constraint_file [get_files -of_objects [get_filesets constrs_1]] {
+#     set origin [get_property name $constraint_file]
+#     set target $repo_path/src/constraints/[file tail $origin]
+#     puts "INFO: Checking in [file tail $origin] to version control."
+#         if {[file exists $target] == 0} { # TODO: this may not be safe; remind users to make sure to delete any unused files from version control
+#         file copy -force $origin $target
+#     }
+# }
+INFO: Checking in NexysVideo_Master.xdc to version control.
+# if {[file exists $repo_path/project_info.tcl] == 0 || $force_overwrite_info_script != 0} {
+#     set proj_obj [get_projects [file rootname $proj_file]]
+#     
+#     set board_part [current_board_part -quiet]
+#     set part [get_property part $proj_obj]
+#     set default_lib [get_property default_lib $proj_obj]
+#     set simulator_language [get_property simulator_language $proj_obj]
+#     set target_language [get_property target_language $proj_obj]
+#     set directives "#Custom directives for synthesis and implementation"
+# 
+# 	#Fetch non-default synthesis and implementation settings
+# 	foreach prop [list_property [get_runs synth_1] STEPS.*.ARGS.*] {
+# 		set Dval [list_property_value -default $prop [get_runs synth_1]]
+# 		set val [get_property $prop [get_runs synth_1]]
+# 		if {$Dval!=$val} {
+# 			append directives "\n\tset_property " $prop " " $val " \[get_runs synth_1\]"
+#     }}
+# 
+# 	foreach prop [list_property [get_runs impl_1] STEPS.*.ARGS.*] {
+# 		set Dval [list_property_value -default $prop [get_runs impl_1]]
+# 		set val [get_property $prop [get_runs impl_1]]
+# 		if {$Dval!=$val} {
+# 			append directives "\n\tset_property " $prop " " $val " \[get_runs impl_1\]"
+#     }}
+# 
+#     puts "INFO: Checking in project_info.tcl to version control."
+#     
+#     set var_map [list <part> $part                             \
+#                       <default_lib> $default_lib               \
+#                       <simulator_language> $simulator_language \
+#                       <target_language> $target_language       \
+#                       <directives> $directives \
+#     ]
+# 
+# 	# Even if current_board_part is empty, the replacement must be made, otherwise placeholder will be considered a board name upon checkout
+#     lappend var_map <board_part> $board_part
+#     
+#     set file_name $repo_path/project_info.tcl
+#     set dfid [open $file_name "w"]
+#     set sfid [open $script_dir/templates/project_info.tcl "r"]
+#     
+#     while { [gets $sfid line] >= 0 } {
+#         puts $dfid [string map $var_map $line]
+#     }
+#     
+#     close $dfid
+#     close $sfid
+# }
+INFO: Checking in project_info.tcl to version control.
+# set post_build_script [file join ${repo_path} post_build.tcl]
+# if {[file exists ${post_build_script}] == 0} {
+#     puts "WARNING: This repository does not contain a post_build script. creating one now."
+#     set target ${post_build_script}
+#     set origin [file join ${script_dir} templates post_build.tcl]
+#     file copy -force ${origin} ${target}
+# }
+# set master_gitignore [file join $repo_path .gitignore]
+# if {[file exists $master_gitignore] == 0} {
+#     puts "WARNING: This repository does not contain a master gitignore. creating one now."
+#     set target $master_gitignore
+#     set origin $script_dir/templates/hw.gitignore
+#     file copy -force $origin $target
+# }
+# puts "INFO: Project $proj_file has been checked into version control"
+INFO: Project hw.xpr has been checked into version control
+archive_project D:/Work/Nexys-Video/hw/hw.xpr.zip -temp_dir C:/Users/Mihai/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-19332-DESKTOP-UT90URG -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Mihai/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-19332-DESKTOP-UT90URG' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Work/Nexys-Video/hw/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/Mihai/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-19332-DESKTOP-UT90URG/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/Mihai/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-19332-DESKTOP-UT90URG/PrjAr/_X_/hw.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [IP_Flow 19-7005] Skipping external file d:/Work/Nexys-Video/hw/src/other/init_sequence.coe
+INFO: [IP_Flow 19-7005] Skipping external file d:/Work/Nexys-Video/hw/src/other/characterLib.coe
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (D:/Work/Nexys-Video/hw/hw.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1736.504 ; gain = 7.977
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 21 05:18:27 2023...
